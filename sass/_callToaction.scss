@@ -1,0 +1,31 @@
+#callToaction{
+    background-image: url(../img/bg-question.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+        margin: 0;
+    }
+    h1, p{
+        color: white;
+    }
+    a{
+        background-color: white;
+        padding: 16px;
+        font-size: 16px;
+        color: #606160;
+        border-radius: 4px;
+        font-weight: 600;
+        transition: all .3s ease;
+        &:hover{
+            text-decoration: none;
+            color: white;
+            background-color: rgba($color: $mainColor, $alpha: .8);
+        }
+    }
+}

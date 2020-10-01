@@ -1,0 +1,85 @@
+footer{
+    padding: 60px 0;
+    background-color: #181B21;
+    h3{
+        font-size: 12px;
+        margin: 0;
+        text-transform: uppercase;
+        &:first-child{
+            width: 44%;
+        }
+        &:last-child{
+            width: 57%;
+        }
+    }
+    img{
+        max-height: 120px;
+    }
+    h3, a{
+        color: white;
+    }
+    .phone{
+        font-size: 28px;
+        transition: all .3s ease;
+        width: 100%;
+        &:hover{
+            color: #ffffff7a;
+            text-decoration: none;
+        }
+    }
+    .mail{
+        font-size: 13px;
+        border-bottom: 1px solid white;
+        transition: all .3s ease;
+        &:hover{
+            color: white;
+            border-bottom-color: #5F7DE8;
+            text-decoration: none;
+        }
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .footer-menu{
+        h1{
+            font-size: 18px;
+            color: white;
+            text-transform: uppercase;
+        }
+        ul{
+            li{
+                margin-bottom: 10px;
+                a{
+                    color: #ffffff7a;
+                    border-bottom: 1px solid #ffffff7a;
+                    transition: all .3s ease;
+                    &:hover{
+                        text-decoration: none;
+                        border-color: transparent;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.copyright{
+    background-color: #181B21;
+    color: #ffffff7a;
+    font-size: 12px;
+    border-top: 1px solid #ffffff36;
+    padding: 20px 0;
+}
+@media (max-width: 768px){
+    footer .contact .phone{
+        font-size: 22px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    footer .contact .phone{
+        font-size: 22px;
+    }
+}

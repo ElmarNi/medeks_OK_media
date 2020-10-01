@@ -1,0 +1,21 @@
+#referanceLogos{
+    a{
+        img{
+            max-width: 120px;
+            filter: grayscale(100%);
+            transition: all .3s ease;
+            &:hover{
+                filter: grayscale(0%);
+            }
+        }
+    }
+    .owl-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span{
+        color: #0000006e;
+    }
+}
